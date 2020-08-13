@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     @IBAction func savePressed(_ sender: UIButton) {
         let vc = SecondViewController(nibName: "SecondViewController", bundle: nil)
         
-        if text == "nil" {
-            vc.labelOne.text = "anxiety"
-        }
+//        if text == "nil" {
+//            vc.labelOne.text = "anxiety"
+//        }
         
         navigationController?.pushViewController(vc, animated: true)
     }
